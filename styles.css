@@ -1,0 +1,174 @@
+
+body {
+ margin: 0;
+ padding: 0;
+ background-image:url("Background.png")
+}
+
+footer{
+			background-image:url("p4.jpg");
+			width: 100%;
+			margin-top: 800px;
+			height: 60px;
+			bottom:0;
+			position:static;
+			
+}
+
+.foot{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footStay{
+	font-family: Cambria;
+	float: left;
+			
+}
+
+.links{
+	float: right;
+	
+}
+
+.tabs{
+		background-color:#c5c6ab;
+		height: 20px;
+		text-align: center;
+		font-family: Cambria;
+	}
+	
+.tabs a{
+		padding-left: 30px;
+		padding-right: 30px;
+		
+		
+	}
+.tabs a:hover{
+	background-color: gray;
+	color:white;
+	}
+	
+
+
+.navheader header , .content{
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+ 	padding: 0 1em 0 1em;
+
+}
+
+.Logo{
+	float:left;
+}
+
+.navheader {
+ 	background-image:url("p4.jpg");
+ 	width: 100%;
+ 	top: 0;
+ 	position: fixed;
+ 	border-bottom: 2px black solid;
+ 	font-size: 15px;
+}
+
+
+.navheader h1 {
+ 	float: left;
+ 	font-family: Cambria, sans-serif, Times;
+ 
+}
+
+.content{
+ 	padding: 5em 1em 1em 1em;
+ 	font-family: Cambria;
+
+}
+
+.navheader a {
+ 	text-decoration: none;
+ 	color: black;
+}
+
+.navheader li {
+ 	display: inline-block;
+ 	margin-right: 1em;
+ 	font-size: 20px;
+ 	height:20;
+}
+
+.navheader li a:hover {
+ 	color: grey;
+}
+
+.navheader ul {
+ 	float: right;
+ 	list-style-type: none;
+ 	padding-top: 1em;
+}
+
+.aboutCourse{
+	background-color: #c5c6ab;
+	float: right;
+	padding:1em 5em 1em 1em;
+	height: 600px;
+	
+}
+.aboutCourse a{
+	text-decoration:none;
+	font-family: Cambria;
+	color: black;
+}
+.aboutCourse ul{
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+}
+
+.aboutCourse a:hover {
+	 color: grey;
+}
+
+.paragraph1{
+	width: 649px;
+	float: left;
+	border: 2px solid  grey;
+	background-color:#f9fafb;
+	height: 628px;
+}
+
+.paragraph2{
+	width: 649px;
+	float: left;
+	background-color:white;
+}
+.aboutUs{
+	width: 600px;
+}
+
+table, th, td {
+   	border: 1px solid black;
+}
+
+
+.projectNav a{
+	text-decoration:none;
+	font-family: Cambria;
+	display: inline-block;
+	color: black;
+	padding: 0 5em 0 5em;
+}
+.projectNav{
+	background-color:#c5c6ab;
+		
+		text-align: center;
+		font-family: Cambria;
+}
+.projectNav a:hover{
+	background-color: gray;
+	color:white;
+	}
+
+
+.paragraph3{
+	padding-top: 2em;
+}

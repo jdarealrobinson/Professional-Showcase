@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Website</title>
+     <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	
+<div class="navheader">
+		
+  		<a href="Home.html"><img src="p.gif" style="width:260px; height:75px ;"/></a>
+
+  			 <nav class="tabs" align="center">
+
+    			<a href="Home.html">Home</a>
+   			 	<a href="projects.php">Projects</a>
+    			<a href="CapstoneDays.html">Capstone Days</a>
+    			<a href="About.html">About</a>
+  
+			</nav>
+		
+ 	</div>
+ 	
+	
+	
+ 	<div class="content">
+ 		<img src="hero_sample.jpg" alt="divPic" align="center"/>
+ 		
+ 	
+ 	<div class="aboutUs">
+		<h2>Project Submission Form</h2>
+		<form name="input" action="insert_project.php" method="post" required="required">
+	<p>
+			<div>
+        	<table>
+ 				<tr>
+ 					<th>Project Name:</th>
+ 						<td><input type="text" name="project_Name" required="required"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Group Members:</th>
+ 						<td><input type="text" name="group_Names" required="required"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>SME:</th>
+ 						<td><input type="text" name="sme" required="required"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Graduation Year:</th>
+ 						<td><input type="text" name="grad_Year" required="required"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Description:</th>
+ 						<td><input type="text" name="description" required="required"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Knowledge Required:</th>
+ 						<td><input type="text" name="knowledge" required="required"></td>
+ 				</tr>		
+ 				<tr>
+ 					<th>Email:</th>
+ 						<td><input type="text" name="email"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Phone:</th>
+ 						<td><input type="text" name="phone"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Picture:</th>
+ 						<td><input type="text" name="pic"></td>
+ 				</tr>
+ 				<tr>
+ 					<th>Source Code:</th>
+ 						<td><input type="text" name="link"></td>
+ 				</tr>
+ 			</table>
+ 			</div>
+ 		 <input type="submit" value="submit" />
+ 		 </form>
+ 		 </p>
+	</div>
+ </div>		
+	
+	
+</body>
+<style>
+
+table, th, td {
+   		border: 1px solid black;
+			}
+
+</style>
+</html>
+
+﻿
